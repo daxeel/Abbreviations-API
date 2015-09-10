@@ -6,8 +6,8 @@ API Request syntax : http://fullform-daxeel.rhcloud.com/api/{FILTER_TYPE}/{SHORT
 where, <br>
 FILTER_TYPE can be <b>popular</b> or <b>all</b> and SHORTFORM will be any shortform. 
 For example : <br>
-<a href="http://fullform-daxeel.rhcloud.com/api/popular/cs" target="_blank">http://fullform-daxeel.rhcloud.com/api/popular/cs</a> <br>
-<a href="http://fullform-daxeel.rhcloud.com/api/all/cs" target="_blank">http://fullform-daxeel.rhcloud.com/api/all/cs</a>
+<a target="_blank" href="http://fullform-daxeel.rhcloud.com/api/popular/cs" target="_blank">http://fullform-daxeel.rhcloud.com/api/popular/cs</a> <br>
+<a target="_blank" href="http://fullform-daxeel.rhcloud.com/api/all/cs" target="_blank">http://fullform-daxeel.rhcloud.com/api/all/cs</a>
 
 ## Using API with Python
 I have wrote simple blog post on how to use Fullforms API with python programming Language. <br>
