@@ -1,4 +1,0 @@
-URL = "http://fullforms.com/"+ word
-PAGE = requests.get(URL)
-HTML = PAGE.content
-soup = BeautifulSoup(HTML, "html.parser")
