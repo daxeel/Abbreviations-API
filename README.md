@@ -11,4 +11,4 @@ For example : <br>
 
 ## Using API with Python
 I have wrote simple blog post on how to use Fullforms API with python programming Language. <br>
-You can check it out here : <a href="http://blog.daxeelsoni.in/2015/09/10/working-with-fullforms-api-using-python/" target="_blank">Click Here</a>
+You can check it out here : <a href="http://blog.daxeelsoni.in/2015/12/25/working-with-abbreviations-api-in-python/" target="_blank">Click Here</a>
