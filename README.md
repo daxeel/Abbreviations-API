@@ -12,7 +12,7 @@ sudo pip install unirest
 ```py
 response = unirest.get("https://daxeel-abbreviations-v1.p.mashape.com/popular/{SHORT_FORM}",
   headers={
-    "X-Mashape-Key": "V96M0xptiXmsh39L6Mw7CES0c7zgp1C7HOLjsnZGls6d3LiDjm"
+    "X-Mashape-Key": "V96M0xxxxxxxxxxx"
   }
 )
 ```
@@ -20,7 +20,7 @@ response = unirest.get("https://daxeel-abbreviations-v1.p.mashape.com/popular/{S
 ```py
 response = unirest.get("https://daxeel-abbreviations-v1.p.mashape.com/all/{SHORT_FORM}",
   headers={
-    "X-Mashape-Key": "V96M0xptiXmsh39L6Mw7CES0c7zgp1C7HOLjsnZGls6d3LiDjm"
+    "X-Mashape-Key": "V96M0xxxxxxxxxxx"
   }
 )
 ```
