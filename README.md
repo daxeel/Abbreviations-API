@@ -4,13 +4,28 @@
 Fullforms is a simple API which will give you access to lots of fullforms and meanings of shortforms. Get fullforms programarically via API request in json format
 
 ## Documentation
-API Request syntax : http://fullform-daxeel.rhcloud.com/api/{FILTER_TYPE}/{SHORTFORM} <br>
-where, <br>
-FILTER_TYPE can be <b>popular</b> or <b>all</b> and SHORTFORM will be any shortform. 
-For example : <br>
-<a target="_blank" href="http://fullform-daxeel.rhcloud.com/api/popular/cs" target="_blank">http://fullform-daxeel.rhcloud.com/api/popular/cs</a> <br>
-<a target="_blank" href="http://fullform-daxeel.rhcloud.com/api/all/cs" target="_blank">http://fullform-daxeel.rhcloud.com/api/all/cs</a>
+API documentation here is for python language. To use this in python you need to install unirest module.
+```sh
+sudo pip install unirest
+```
+### For popular abbreviations
+```py
+response = unirest.get("https://daxeel-abbreviations-v1.p.mashape.com/popular/{SHORT_FORM}",
+  headers={
+    "X-Mashape-Key": "V96M0xptiXmsh39L6Mw7CES0c7zgp1C7HOLjsnZGls6d3LiDjm"
+  }
+)
+```
+### For all abbreviations
+```py
+response = unirest.get("https://daxeel-abbreviations-v1.p.mashape.com/all/{SHORT_FORM}",
+  headers={
+    "X-Mashape-Key": "V96M0xptiXmsh39L6Mw7CES0c7zgp1C7HOLjsnZGls6d3LiDjm"
+  }
+)
+```
+<p>For more details : <a href="https://market.mashape.com/daxeel/abbreviations#all-short_form" target"_blank">Visit here</a></p>
 
-## Using API with Python
+## For more information
 I have wrote simple blog post on how to use Fullforms API with python programming Language. <br>
 You can check it out here : <a href="http://blog.daxeelsoni.in/2015/12/25/working-with-abbreviations-api-in-python/" target="_blank">Click Here</a>
